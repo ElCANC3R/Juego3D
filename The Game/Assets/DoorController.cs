@@ -8,10 +8,9 @@ public class DoorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isOpen && PlayerController.key)
+        if (PlayerController.key)
         {
             transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(0, 90, 0), Time.deltaTime);
-            canvas.SetActive(true);
         }
         else
         {
@@ -19,8 +18,4 @@ public class DoorController : MonoBehaviour
         }
     }
 
-    public void OpenCloseDoor()
-    {
-       isOpen = !isOpen;
-    }
 }
