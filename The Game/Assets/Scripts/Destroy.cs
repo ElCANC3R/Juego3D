@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool trampa;
 
     // Update is called once per frame
     void Update()
     {
-        if(PlayerController.key){
+        if(PlayerController.items >=10 && !trampa){
+            Destroy(gameObject);
+        }
+
+        if(PlayerController.falsekey && trampa){
             Destroy(gameObject);
         }
     }

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Door
+  - Bala
+  - Key
+  - FalseKey
+  - Item
   layers:
   - Default
   - TransparentFX

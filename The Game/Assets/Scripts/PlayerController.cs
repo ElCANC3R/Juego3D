@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 3f;
     public float gravity = -9.81f;
     public static bool key = false;
+    public static bool falsekey = false;
+    public static int items = 7;
     Vector3 velocity;
     // Start is called before the first frame update
     void Start()
@@ -24,4 +26,6 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         player.Move(velocity * Time.deltaTime);
     }
+
+    
 }

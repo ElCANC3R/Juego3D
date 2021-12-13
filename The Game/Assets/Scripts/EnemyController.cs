@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     public Transform player;
     public GameObject menu;
     public bool oculto;
+    private int vida = 5;
     void Start()
     {
         myNavMesgAgent = GetComponent<NavMeshAgent>();
@@ -22,7 +23,7 @@ public class EnemyController : MonoBehaviour
         {
             myNavMesgAgent.SetDestination(player.position);
         }
-        else if(PlayerController.key){
+        else if(PlayerController.items >= 10){
             myNavMesgAgent.SetDestination(player.position);
         }
 
@@ -30,6 +31,17 @@ public class EnemyController : MonoBehaviour
         {
             menu.SetActive(true);
             Time.timeScale = 0;
+        }
+
+        if(vida<=0){
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter(Collision other) {
+        if(other.collider.CompareTag("Bala")){
+            vida--;
+            Debug.Log(vida);
         }
     }
 }
