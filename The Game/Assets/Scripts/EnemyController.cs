@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     NavMeshAgent myNavMesgAgent;
     public Transform player;
     public GameObject menu;
-    public GameObject ghost;
+    public bool oculto;
     void Start()
     {
         myNavMesgAgent = GetComponent<NavMeshAgent>();
@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
      
-        if(Vector3.Distance(player.position, transform.position) <8 )
+        if(Vector3.Distance(player.position, transform.position) <8 && !oculto)
         {
             myNavMesgAgent.SetDestination(player.position);
         }
