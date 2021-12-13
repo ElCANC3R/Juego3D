@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.81f;
     public static bool key = false;
     public static bool falsekey = false;
-    public static int items = 7;
+    public static int items = 0;
     Vector3 velocity;
     // Start is called before the first frame update
     void Start()
