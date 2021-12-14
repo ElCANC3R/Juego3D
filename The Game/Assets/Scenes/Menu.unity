@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008247819, g: 0.015448263, b: 0.031955723, a: 1}
+  m_IndirectSpecularColor: {r: 0.0083269635, g: 0.0155984955, b: 0.03217811, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 287086364}
     m_Modifications:
+    - target: {fileID: 1184863596, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5850201171174854039, guid: eb1d6b40406fef04f9d2126cdb920cdf,
         type: 3}
       propertyPath: m_Name
@@ -215,7 +219,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5791943800122983001, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+    - {fileID: 8242164219615596235, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
 --- !u!4 &4466199 stripped
 Transform:
@@ -565,6 +571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 731833962}
     m_Modifications:
+    - target: {fileID: 1184863596, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5850201171174854039, guid: eb1d6b40406fef04f9d2126cdb920cdf,
         type: 3}
       propertyPath: m_Name
@@ -635,7 +645,8 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8242164219615596235, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
 --- !u!4 &445278906 stripped
 Transform:
@@ -1102,6 +1113,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 287086364}
     m_Modifications:
+    - target: {fileID: 1184863596, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5850201171174854039, guid: eb1d6b40406fef04f9d2126cdb920cdf,
         type: 3}
       propertyPath: m_Name
@@ -1187,7 +1202,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5791943800122983001, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+    - {fileID: 8242164219615596235, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
 --- !u!4 &846516269 stripped
 Transform:
@@ -1635,6 +1652,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 731833962}
     m_Modifications:
+    - target: {fileID: 1184863596, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5850201171174854039, guid: eb1d6b40406fef04f9d2126cdb920cdf,
         type: 3}
       propertyPath: m_Name
@@ -1705,7 +1726,8 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8242164219615596235, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
 --- !u!4 &1264924175 stripped
 Transform:
@@ -2299,6 +2321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 731833962}
     m_Modifications:
+    - target: {fileID: 1184863596, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5850201171174854039, guid: eb1d6b40406fef04f9d2126cdb920cdf,
         type: 3}
       propertyPath: m_Name
@@ -2369,7 +2395,8 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8242164219615596235, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
 --- !u!4 &1700306538 stripped
 Transform:
@@ -2467,7 +2494,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2628,6 +2655,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 287086364}
     m_Modifications:
+    - target: {fileID: 1184863596, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5850201171174854039, guid: eb1d6b40406fef04f9d2126cdb920cdf,
         type: 3}
       propertyPath: m_Name
@@ -2698,7 +2729,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5791943800122983001, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
+    - {fileID: 8242164219615596235, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb1d6b40406fef04f9d2126cdb920cdf, type: 3}
 --- !u!4 &2005261932 stripped
 Transform:

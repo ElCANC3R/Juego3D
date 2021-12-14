@@ -9,7 +9,10 @@ public class CameraController : MonoBehaviour
     float yRotation = 0f;
     void Start()
     {
+        Time.timeScale = 1;
        if (Cursor.lockState != CursorLockMode.Locked) Cursor.lockState = CursorLockMode.Locked;
+       if (Cursor.lockState == CursorLockMode.None) Cursor.lockState = CursorLockMode.Locked;
+       
     }
 
     void Update()

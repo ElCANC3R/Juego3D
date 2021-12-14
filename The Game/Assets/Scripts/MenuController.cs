@@ -2,16 +2,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MenuController : MonoBehaviour
 {
     public void Reiniciar()
     {
-
-        SceneManager.LoadScene("DemoScene");
+        SceneManager.LoadScene("Horror");
         Time.timeScale = 1;
     }
+
     public void Salir()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
     }
+
 }

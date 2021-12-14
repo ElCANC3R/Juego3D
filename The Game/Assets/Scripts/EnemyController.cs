@@ -23,12 +23,16 @@ public class EnemyController : MonoBehaviour
         {
             myNavMesgAgent.SetDestination(player.position);
         }
-        else if(PlayerController.items >= 10){
+        else if(PlayerController.items >= 10 && !oculto){
+            myNavMesgAgent.SetDestination(player.position);
+        }
+        else if(PlayerController.falsekey && oculto){
             myNavMesgAgent.SetDestination(player.position);
         }
 
         if(Vector3.Distance(player.position, transform.position) < 1.5)
         {
+            if (Cursor.lockState == CursorLockMode.Locked) Cursor.lockState = CursorLockMode.None;
             menu.SetActive(true);
             Time.timeScale = 0;
         }
