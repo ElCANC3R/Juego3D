@@ -12501,7 +12501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3677f3cc5d87b524188213e6e3784e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bola: {fileID: 434730235750227806, guid: e263948183ae35e418155bbc9c780b6c, type: 3}
+  bola: {fileID: 673497484164096972, guid: ce5023aa291489c49a4294acffa005f4, type: 3}
   velocidad: 30
 --- !u!1001 &1783150934
 PrefabInstance:
